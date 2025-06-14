@@ -1,0 +1,766 @@
+
+{
+  "title": "Avantee's Romantic Adventure",
+  "description": "A beautiful love story interactive experience",
+  "metadata": {
+    "author": "Your Romantic Adventure Creator",
+    "version": "1.0",
+    "created": "2024"
+  },
+  "scenes": [
+    {
+      "id": "start",
+      "title": "The Beginning of Our Love Story",
+      "isStart": true,
+      "content": "Today is the day I've been looking forward to all week - our first official date. My heart is racing with excitement and nervousness as I prepare to see you. I want everything to be perfect for Avantee, the most amazing woman I've ever met.",
+      "choices": [
+        {
+          "text": "Take time to pick the perfect flowers for you first",
+          "nextScene": "flower_shop"
+        },
+        {
+          "text": "Head to the hostel early because I can't wait to see you",
+          "nextScene": "early_arrival"
+        }
+      ]
+    },
+    {
+      "id": "flower_shop",
+      "title": "Choosing the Perfect Flowers",
+      "content": "I walk into the flower shop, overwhelmed by the beautiful options. I want to pick something that represents how I feel about you - something as beautiful and special as you are. The florist helps me choose the most gorgeous bouquet.",
+      "choices": [
+        {
+          "text": "Take a moment to write a sweet note to go with them",
+          "nextScene": "love_note"
+        },
+        {
+          "text": "Head straight to the hostel with the flowers",
+          "nextScene": "flower_delivery"
+        }
+      ]
+    },
+    {
+      "id": "love_note",
+      "title": "Writing from the Heart",
+      "content": "I sit down to write a note that captures my feelings. 'Dear Avantee, these flowers are beautiful, but not nearly as beautiful as your smile. I can't wait to see you and start our adventure together. You make every day brighter just by being in it.'",
+      "choices": [
+        {
+          "text": "Add one more heartfelt line to the note",
+          "nextScene": "enhanced_note"
+        },
+        {
+          "text": "Head to the hostel with flowers and note",
+          "nextScene": "flower_delivery"
+        }
+      ]
+    },
+    {
+      "id": "enhanced_note",
+      "title": "Pouring My Heart Out",
+      "content": "I add one more heartfelt line to my note: 'I have a feeling that today is going to change everything for the better, and I couldn't be happier that it's with you.' The words feel perfect, expressing exactly the hope and excitement in my heart.",
+      "choices": [
+        {
+          "text": "Head to the hostel with flowers and the perfect note",
+          "nextScene": "flower_delivery"
+        }
+      ]
+    },
+    {
+      "id": "flower_delivery",
+      "title": "A Beautiful Surprise",
+      "content": "I arrive at your hostel with the beautiful flowers and heartfelt note. When you see them, your face lights up with the most radiant smile. 'These are absolutely gorgeous!' you exclaim, reading the note with tears of joy in your eyes. 'You're so incredibly sweet.'",
+      "choices": [
+        {
+          "text": "Tell you that you deserve to be treated this special every day",
+          "nextScene": "deserving_special"
+        },
+        {
+          "text": "Suggest we start our perfect date adventure now",
+          "nextScene": "cafe_suggestion"
+        }
+      ]
+    },
+    {
+      "id": "deserving_special",
+      "title": "You Deserve Everything Beautiful",
+      "content": "Looking into your eyes, I tell you with complete sincerity: 'Avantee, you deserve to be treated this special every single day. You deserve flowers, sweet notes, and someone who thinks about making you smile. You deserve all the love and happiness in the world.'",
+      "choices": [
+        {
+          "text": "Suggest we start our perfect date adventure now",
+          "nextScene": "cafe_suggestion"
+        }
+      ]
+    },
+    {
+      "id": "early_arrival",
+      "title": "Eager Anticipation",
+      "content": "I arrive at the hostel 30 minutes early, my heart racing with excitement. The anticipation is almost unbearable - I've been looking forward to this moment all week. I pace a little, checking my reflection in the window, making sure everything is perfect for our first date.",
+      "choices": [
+        {
+          "text": "Wait patiently and practice what I'll say",
+          "nextScene": "nervous_wait"
+        },
+        {
+          "text": "Text you that I'm here early",
+          "nextScene": "early_text"
+        }
+      ]
+    },
+    {
+      "id": "nervous_wait",
+      "title": "Sweet Anticipation",
+      "content": "I find a comfortable spot and try to calm my nerves. 'Just be yourself,' I tell myself. 'She already likes you.' The minutes feel like hours, but finally I see you walking toward me, and all my nervousness melts away into pure joy.",
+      "choices": [
+        {
+          "text": "Greet you with a warm smile",
+          "nextScene": "first_meeting"
+        }
+      ]
+    },
+    {
+      "id": "early_text",
+      "title": "Sweet Communication",
+      "content": "I send you a text: 'Hey beautiful, I'm here a bit early because I couldn't wait any longer to see you! No rush though, take your time 💕' You respond almost immediately: 'Aww, you're so sweet! I'm almost ready, can't wait to see you too! 😊'",
+      "choices": [
+        {
+          "text": "Wait excitedly for your arrival",
+          "nextScene": "first_meeting"
+        }
+      ]
+    },
+    {
+      "id": "first_meeting",
+      "title": "When I See You",
+      "content": "The moment I see you walking toward me, my heart skips a beat. You look absolutely radiant, and your smile could light up the entire world. All my nervousness disappears, replaced by overwhelming joy and gratitude that I get to spend this day with you.",
+      "choices": [
+        {
+          "text": "Tell you how beautiful you look",
+          "nextScene": "compliment_scene"
+        },
+        {
+          "text": "Express how excited I am for our day together",
+          "nextScene": "shared_excitement"
+        }
+      ]
+    },
+    {
+      "id": "compliment_scene",
+      "title": "You Take My Breath Away",
+      "content": "As you approach me with that radiant smile, I can't help but speak from my heart: 'Avantee, you look absolutely beautiful today. Actually, you look beautiful every day, but right now, seeing you walking toward me... you literally take my breath away.'",
+      "choices": [
+        {
+          "text": "Offer you my arm and suggest we start our adventure",
+          "nextScene": "cafe_suggestion"
+        },
+        {
+          "text": "Tell you how excited I am for our day together",
+          "nextScene": "shared_excitement"
+        }
+      ]
+    },
+    {
+      "id": "shared_excitement",
+      "title": "Perfect Synchronicity",
+      "content": "I tell you how incredibly excited I am for our day together, and your face lights up even more. 'I'm so excited too!' you say, practically bouncing with joy. 'I've been looking forward to this all week. I kept thinking about all the fun we're going to have.'",
+      "choices": [
+        {
+          "text": "Suggest we start with a cozy café",
+          "nextScene": "cafe_suggestion"
+        },
+        {
+          "text": "Ask what you're most excited about",
+          "nextScene": "excitement_discussion"
+        }
+      ]
+    },
+    {
+      "id": "excitement_discussion",
+      "title": "Sharing Our Excitement",
+      "content": "When I ask what you're most excited about, your eyes sparkle as you share your thoughts. 'I'm excited about everything!' you say. 'Getting to know you better, sharing stories, creating memories together. But mostly, I'm just excited to spend time with someone who makes me feel so happy.'",
+      "choices": [
+        {
+          "text": "Tell you that's exactly how I feel too",
+          "nextScene": "cafe_suggestion"
+        },
+        {
+          "text": "Suggest we start making those memories right now",
+          "nextScene": "cafe_suggestion"
+        }
+      ]
+    },
+    {
+      "id": "cafe_suggestion",
+      "title": "Our First Stop",
+      "content": "I suggest we start our adventure at a charming little café I know. 'There's this perfect little place where we can sit and talk and just enjoy being together,' I tell you. Your eyes sparkle with delight. 'That sounds absolutely perfect! Lead the way!'",
+      "choices": [
+        {
+          "text": "Walk to the café together, talking along the way",
+          "nextScene": "cafe_arrival"
+        },
+        {
+          "text": "Offer you my arm as we walk",
+          "nextScene": "romantic_walk"
+        }
+      ]
+    },
+    {
+      "id": "cafe_arrival",
+      "title": "Our Cozy Corner",
+      "content": "We arrive at the charming café and find the perfect corner table by the window. The soft lighting, gentle music, and intimate atmosphere create the ideal setting for getting to know each other better. I pull out your chair, and we settle in for what I hope will be hours of wonderful conversation.",
+      "choices": [
+        {
+          "text": "Ask you about the things that make you happiest",
+          "nextScene": "happiness_exploration"
+        },
+        {
+          "text": "Share funny stories to make you laugh",
+          "nextScene": "sharing_stories"
+        },
+        {
+          "text": "Tell you how special this moment feels",
+          "nextScene": "feelings_confession"
+        }
+      ]
+    },
+    {
+      "id": "sharing_stories",
+      "title": "Laughter and Connection",
+      "content": "I start sharing some funny stories from my life, and your laughter fills the café with the most beautiful sound. Your eyes light up as you share your own hilarious experiences, and we discover we have the same silly sense of humor. Time seems to fly by as we laugh together.",
+      "choices": [
+        {
+          "text": "Ask you about your dreams and aspirations",
+          "nextScene": "dreams_conversation"
+        },
+        {
+          "text": "Tell you how much I love hearing you laugh",
+          "nextScene": "happiness_exploration"
+        },
+        {
+          "text": "Suggest we continue this conversation somewhere more romantic",
+          "nextScene": "romantic_walk"
+        }
+      ]
+    },
+    {
+      "id": "dreams_conversation",
+      "title": "Sharing Our Dreams",
+      "content": "As we talk about our dreams and aspirations, I'm amazed by your passion and ambition. You speak with such beautiful enthusiasm about the things you want to achieve. 'What about you?' you ask with genuine interest. 'What are your biggest dreams?'",
+      "choices": [
+        {
+          "text": "Share my dreams and how you inspire me to be better",
+          "nextScene": "mutual_inspiration"
+        },
+        {
+          "text": "Tell you that my biggest dream is building something beautiful with you",
+          "nextScene": "feelings_confession"
+        }
+      ]
+    },
+    {
+      "id": "mutual_inspiration",
+      "title": "Inspiring Each Other",
+      "content": "I share my dreams with you and explain how meeting you has inspired me to think bigger and be better. 'You make me want to be the best version of myself,' I tell you honestly. Your response takes my breath away: 'You inspire me too. I feel like I can achieve anything when I'm with you.'",
+      "choices": [
+        {
+          "text": "Suggest we help each other achieve our dreams",
+          "nextScene": "partnership_vision"
+        },
+        {
+          "text": "Tell you how grateful I am to have you in my life",
+          "nextScene": "feelings_confession"
+        }
+      ]
+    },
+    {
+      "id": "partnership_vision",
+      "title": "Building Dreams Together",
+      "content": "Looking into your eyes, I take your hands and share a beautiful vision: 'Avantee, what if we helped each other achieve our dreams? What if we became each other's biggest supporters, cheerleaders, and partners in making our wildest dreams come true?' Your smile could power the entire city.",
+      "choices": [
+        {
+          "text": "Make a pact to always support each other's dreams",
+          "nextScene": "dream_pact"
+        },
+        {
+          "text": "Suggest we seal this partnership with a romantic walk",
+          "nextScene": "romantic_walk"
+        }
+      ]
+    },
+    {
+      "id": "dream_pact",
+      "title": "Our Promise to Each Other",
+      "content": "We make a beautiful pact to always support each other's dreams, to celebrate each other's victories, and to be there during the challenges. 'No matter what happens,' you say, squeezing my hands, 'we'll always believe in each other.' This feels like the most meaningful promise we could make.",
+      "choices": [
+        {
+          "text": "Suggest we celebrate our pact with a romantic adventure",
+          "nextScene": "romantic_walk"
+        },
+        {
+          "text": "Tell you this feels like the beginning of something magical",
+          "nextScene": "beautiful_beginning"
+        }
+      ]
+    },
+    {
+      "id": "happiness_exploration",
+      "title": "Understanding Your Joy",
+      "content": "I lean forward with genuine curiosity and ask, 'Avantee, tell me about the things that make you truly happy. I want to know what lights you up inside.' Your face glows as you start sharing your passions, dreams, and the simple moments that bring you joy.",
+      "choices": [
+        {
+          "text": "Share what makes me happy too",
+          "nextScene": "mutual_joy"
+        },
+        {
+          "text": "Tell you that making you happy makes me happy",
+          "nextScene": "happiness_cycle"
+        }
+      ]
+    },
+    {
+      "id": "mutual_joy",
+      "title": "Shared Happiness",
+      "content": "I share with you the things that bring me the most joy, and I realize that many of them involve connection, laughter, and meaningful moments with people I care about. 'But right now,' I tell you, 'sitting here with you, seeing you laugh and smile - this is the happiest I've ever been.'",
+      "choices": [
+        {
+          "text": "Suggest we continue sharing these moments",
+          "nextScene": "romantic_walk"
+        },
+        {
+          "text": "Tell you how special our connection feels",
+          "nextScene": "connection_acknowledgment"
+        }
+      ]
+    },
+    {
+      "id": "connection_acknowledgment",
+      "title": "Something Special Between Us",
+      "content": "I look into your eyes and share what's been building in my heart: 'Avantee, there's something really special happening between us. I feel this incredible connection that I've never experienced before. Do you feel it too?' Your smile and the way your eyes light up tells me everything I need to know.",
+      "choices": [
+        {
+          "text": "Take your hand and suggest we explore this connection",
+          "nextScene": "romantic_walk"
+        },
+        {
+          "text": "Tell you I'm falling for you",
+          "nextScene": "falling_in_love"
+        }
+      ]
+    },
+    {
+      "id": "falling_in_love",
+      "title": "Opening My Heart",
+      "content": "With courage I didn't know I had, I look into your beautiful eyes and speak from my heart: 'Avantee, I need to be honest with you. I'm falling for you. Hard. Everything about you - your laugh, your kindness, your dreams, the way you make me feel - I'm completely falling in love with you.'",
+      "choices": [
+        {
+          "text": "Wait for your response with hopeful anticipation",
+          "nextScene": "mutual_feelings"
+        },
+        {
+          "text": "Tell you I don't expect you to feel the same way yet",
+          "nextScene": "patient_love"
+        }
+      ]
+    },
+    {
+      "id": "patient_love",
+      "title": "Love Without Pressure",
+      "content": "I squeeze your hands gently and add with complete sincerity: 'I don't expect you to feel the same way yet. I just needed you to know how I feel. Whether this grows into something more or we stay as we are, I'm just grateful to have you in my life.' Your response melts my heart completely.",
+      "choices": [
+        {
+          "text": "Listen as you share your feelings",
+          "nextScene": "mutual_feelings"
+        }
+      ]
+    },
+    {
+      "id": "happiness_cycle",
+      "title": "The Circle of Joy",
+      "content": "Looking into your eyes, I share a beautiful realization: 'You know what I've discovered today? Making you happy makes me happy. Seeing you smile, hearing you laugh, watching you light up when you talk about the things you love - your happiness creates my happiness.'",
+      "choices": [
+        {
+          "text": "Suggest we spend the rest of our day creating this happiness",
+          "nextScene": "day_of_joy"
+        },
+        {
+          "text": "Tell you this feels like the beginning of something beautiful",
+          "nextScene": "beautiful_beginning"
+        }
+      ]
+    },
+    {
+      "id": "day_of_joy",
+      "title": "Creating Happiness Together",
+      "content": "We decide to spend the rest of our day intentionally creating moments of joy for each other. Every laugh, every smile, every sweet gesture becomes a gift we give to one another. This day transforms into the most beautiful celebration of happiness I've ever experienced.",
+      "choices": [
+        {
+          "text": "Suggest we make this our tradition - always prioritizing each other's happiness",
+          "nextScene": "romantic_walk"
+        },
+        {
+          "text": "Tell you this is what love should feel like",
+          "nextScene": "feelings_confession"
+        }
+      ]
+    },
+    {
+      "id": "beautiful_beginning",
+      "title": "The Start of Something Magical",
+      "content": "I take your hands in mine and look into your eyes with complete sincerity: 'Avantee, I can feel that this is the beginning of something incredibly beautiful. Whatever this becomes, I want you to know that meeting you has already changed my life in the most wonderful way.'",
+      "choices": [
+        {
+          "text": "Ask you if you feel the same magic",
+          "nextScene": "mutual_feelings"
+        },
+        {
+          "text": "Suggest we take a romantic walk to continue this conversation",
+          "nextScene": "romantic_walk"
+        }
+      ]
+    },
+    {
+      "id": "romantic_walk",
+      "title": "Walking Together",
+      "content": "We decide to take a romantic walk through the beautiful areas nearby. With your hand in mine, everything feels perfect. We talk about dreams, laugh at silly things, and create those magical moments that make first dates unforgettable.",
+      "choices": [
+        {
+          "text": "Suggest we learn something new together",
+          "nextScene": "driving_lesson_idea"
+        },
+        {
+          "text": "Find a quiet spot to share deeper conversation",
+          "nextScene": "intimate_moment"
+        }
+      ]
+    },
+    {
+      "id": "driving_lesson_idea",
+      "title": "Learning Together",
+      "content": "During our walk, I get an exciting idea. 'Avantee, you mentioned you'd like to learn to drive. What if we make that part of our adventure today? I could teach you!' Your eyes light up with excitement and a little nervous energy. 'Really? You'd do that for me?'",
+      "choices": [
+        {
+          "text": "Tell you I'd love to help you learn anything",
+          "nextScene": "driving_lesson_start"
+        },
+        {
+          "text": "Assure you that I'll be patient and encouraging",
+          "nextScene": "driving_lesson_start"
+        }
+      ]
+    },
+    {
+      "id": "driving_lesson_start",
+      "title": "Your First Driving Lesson",
+      "content": "We head to a quiet parking lot where you can practice safely. I explain the basics gently and encouragingly. When you get behind the wheel for the first time, I can see both excitement and nervousness in your eyes. 'You've got this, Avantee. I believe in you completely.'",
+      "choices": [
+        {
+          "text": "Guide you through your first successful drive",
+          "nextScene": "driving_success"
+        },
+        {
+          "text": "Celebrate each small victory with you",
+          "nextScene": "driving_encouragement"
+        }
+      ]
+    },
+    {
+      "id": "driving_encouragement",
+      "title": "Celebrating Every Victory",
+      "content": "I make sure to celebrate every small victory with you - when you successfully start the car, when you make your first smooth turn, when you park perfectly. 'You're doing amazing!' I tell you with genuine excitement. Your confidence grows with each encouraging word.",
+      "choices": [
+        {
+          "text": "Continue practicing until you feel completely confident",
+          "nextScene": "driving_success"
+        },
+        {
+          "text": "Tell you how proud I am of your determination",
+          "nextScene": "pride_moment"
+        }
+      ]
+    },
+    {
+      "id": "pride_moment",
+      "title": "My Pride in You",
+      "content": "I look at you with complete admiration and tell you: 'Avantee, I am so incredibly proud of you. Not just for learning to drive, but for your courage, your determination, and the way you embrace new challenges. You inspire me to be braver too.'",
+      "choices": [
+        {
+          "text": "Suggest we celebrate your achievement with a scenic drive",
+          "nextScene": "driving_success"
+        },
+        {
+          "text": "Tell you that your courage is one of the things I love about you",
+          "nextScene": "feelings_confession"
+        }
+      ]
+    },
+    {
+      "id": "driving_success",
+      "title": "You Did It!",
+      "content": "After some practice, you successfully drive around the parking lot! Your face is beaming with pride and accomplishment. 'I can't believe I just did that!' you exclaim. I'm so proud of you and excited to have shared this milestone moment.",
+      "choices": [
+        {
+          "text": "Celebrate with a drive through the beautiful countryside",
+          "nextScene": "scenic_drive"
+        },
+        {
+          "text": "Tell you how proud I am of your courage",
+          "nextScene": "pride_celebration"
+        }
+      ]
+    },
+    {
+      "id": "pride_celebration",
+      "title": "Celebrating Your Achievement",
+      "content": "I can't contain my excitement and pride in your accomplishment. 'Avantee, you did something amazing today! You faced your fears, learned something new, and succeeded beautifully. This is just the beginning of all the incredible things you're going to achieve.' Your joy is absolutely infectious.",
+      "choices": [
+        {
+          "text": "Suggest we celebrate with a beautiful scenic drive",
+          "nextScene": "scenic_drive"
+        },
+        {
+          "text": "Tell you that sharing this moment with you means everything",
+          "nextScene": "meaningful_moments"
+        }
+      ]
+    },
+    {
+      "id": "meaningful_moments",
+      "title": "Treasuring This Memory",
+      "content": "I take your hands and look into your eyes with deep emotion: 'Avantee, being here to share this moment with you, to see your face light up with pride and joy - this means everything to me. These are the moments that make life beautiful, and I'm so grateful I get to experience them with you.'",
+      "choices": [
+        {
+          "text": "Suggest we create many more beautiful memories together",
+          "nextScene": "scenic_drive"
+        },
+        {
+          "text": "Tell you I'm falling in love with creating memories with you",
+          "nextScene": "feelings_confession"
+        }
+      ]
+    },
+    {
+      "id": "scenic_drive",
+      "title": "Our Perfect Drive",
+      "content": "With you as my co-pilot, we drive through the most beautiful scenic routes. The windows are down, music is playing softly, and we're both laughing and talking. This feels like the perfect romantic movie scene, except it's real and it's ours.",
+      "choices": [
+        {
+          "text": "Drive into the sunset together",
+          "nextScene": "sunset_drive"
+        },
+        {
+          "text": "Find a beautiful spot to watch the stars",
+          "nextScene": "stargazing"
+        }
+      ]
+    },
+    {
+      "id": "intimate_moment",
+      "title": "Just Us",
+      "content": "We find a quiet, beautiful spot and sit together, just talking and enjoying each other's company. In this peaceful moment, I feel incredibly close to you. The conversation flows naturally from lighthearted to meaningful.",
+      "choices": [
+        {
+          "text": "Share your deepest thoughts with me",
+          "nextScene": "deep_connection"
+        },
+        {
+          "text": "Tell you how I feel about you",
+          "nextScene": "feelings_confession"
+        }
+      ]
+    },
+    {
+      "id": "deep_connection",
+      "title": "Soul-Deep Connection",
+      "content": "In this quiet, intimate space, we share our deepest thoughts, fears, and dreams. I feel like I'm seeing into your beautiful soul, and you're seeing into mine. This level of connection and understanding feels rare and precious. 'I've never felt this close to anyone,' you whisper.",
+      "choices": [
+        {
+          "text": "Tell you I feel the same deep connection",
+          "nextScene": "soul_connection"
+        },
+        {
+          "text": "Share that you make me feel completely understood",
+          "nextScene": "feelings_confession"
+        }
+      ]
+    },
+    {
+      "id": "soul_connection",
+      "title": "Connected Souls",
+      "content": "I look into your eyes and speak from the deepest part of my heart: 'Avantee, I feel like our souls recognize each other. Like we were meant to find each other and share this beautiful connection. You understand me in a way no one ever has, and I hope I do the same for you.'",
+      "choices": [
+        {
+          "text": "Ask if you believe in soulmates",
+          "nextScene": "soulmate_conversation"
+        },
+        {
+          "text": "Tell you I think I'm falling in love with your soul",
+          "nextScene": "feelings_confession"
+        }
+      ]
+    },
+    {
+      "id": "soulmate_conversation",
+      "title": "Talking About Soulmates",
+      "content": "When I ask if you believe in soulmates, your eyes light up with the most beautiful expression. 'I didn't used to,' you say softly, 'but sitting here with you, feeling this connection... I'm starting to think maybe I do.' The air between us feels charged with possibility and deep emotion.",
+      "choices": [
+        {
+          "text": "Tell you I think we might be each other's soulmates",
+          "nextScene": "soulmate_recognition"
+        },
+        {
+          "text": "Share that you've changed my beliefs about love too",
+          "nextScene": "feelings_confession"
+        }
+      ]
+    },
+    {
+      "id": "soulmate_recognition",
+      "title": "Finding Each Other",
+      "content": "With trembling emotion, I take your hands and speak what's in my heart: 'Avantee, I think you might be my soulmate. I think we were meant to find each other, to love each other, to build something beautiful together. I've never been more sure of anything in my life.' Your response takes my breath away.",
+      "choices": [
+        {
+          "text": "Wait for you to share if you feel the same",
+          "nextScene": "mutual_feelings"
+        },
+        {
+          "text": "Tell you that whether or not you feel the same, I had to be honest",
+          "nextScene": "honest_feelings"
+        }
+      ]
+    },
+    {
+      "id": "honest_feelings",
+      "title": "Speaking My Truth",
+      "content": "I continue with complete vulnerability: 'Whether or not you feel the same way, I needed to be completely honest with you. You deserve to know how deeply you've touched my heart and how much you mean to me. No matter what happens, I'm grateful for this connection we share.'",
+      "choices": [
+        {
+          "text": "Listen as you share your heart with me",
+          "nextScene": "mutual_feelings"
+        }
+      ]
+    },
+    {
+      "id": "feelings_confession",
+      "title": "Speaking from the Heart",
+      "content": "In this beautiful, quiet moment, I take your hands in mine and look into your eyes. 'Avantee, I need you to know something. Today has been incredible, not just because of what we've done, but because of who you are. You make me feel things I've never felt before.'",
+      "choices": [
+        {
+          "text": "Wait for you to share your feelings too",
+          "nextScene": "mutual_feelings"
+        },
+        {
+          "text": "Tell you I'm already falling for you",
+          "nextScene": "falling_in_love"
+        }
+      ]
+    },
+    {
+      "id": "mutual_feelings",
+      "title": "When You Said 'I Love You'",
+      "content": "After I share my feelings, you take a deep breath and look at me with those beautiful, honest eyes. There's a moment of sweet vulnerability, and then you say the words that change everything: 'I love you.' The words hang in the air like magic.",
+      "choices": [
+        {
+          "text": "Tell you I love you too with all my heart",
+          "ending": "mutual_love_ending"
+        },
+        {
+          "text": "Hold you close and show you how much those words mean",
+          "ending": "perfect_love_ending"
+        }
+      ]
+    },
+    {
+      "id": "stargazing",
+      "title": "Under the Stars",
+      "content": "We find the perfect spot to lie back and look at the stars together. With your head on my shoulder and the entire universe spread out above us, everything feels magical and infinite. 'Make a wish,' I whisper, and we both close our eyes.",
+      "choices": [
+        {
+          "text": "Share what you wished for",
+          "ending": "wish_fulfillment_ending"
+        },
+        {
+          "text": "Keep the wishes secret but promise they're about us",
+          "ending": "secret_wishes_ending"
+        }
+      ]
+    },
+    {
+      "id": "sunset_drive",
+      "title": "Golden Hour Together",
+      "content": "As the sun begins to set, we drive toward the most beautiful viewpoint. The sky is painted in brilliant oranges, pinks, and purples. We park and watch the sunset together, and I know this moment will be forever etched in my memory as perfect.",
+      "choices": [
+        {
+          "text": "Promise to watch a thousand more sunsets with you",
+          "ending": "sunset_promise_ending"
+        },
+        {
+          "text": "Tell you this is the most beautiful day of my life",
+          "ending": "beautiful_day_ending"
+        }
+      ]
+    }
+  ],
+  "endings": [
+    {
+      "id": "mutual_love_ending",
+      "title": "Our Love Story Begins",
+      "message": "As we say 'I love you' to each other for the first time, we both know that this is just the beginning of something beautiful. Our first date has become the first chapter of our love story.",
+      "rewards": ["love-letter"]
+    },
+    {
+      "id": "perfect_love_ending",
+      "title": "Perfect Love",
+      "message": "In your arms, with those three perfect words between us, I know that I've found my person. This day, this moment, this love - everything is exactly as it should be.",
+      "rewards": ["our-memories"]
+    },
+    {
+      "id": "wish_fulfillment_ending",
+      "title": "Wishes Come True",
+      "message": "Under the stars, we discover that we both wished for the same thing - for this perfect day to be the beginning of forever. Some wishes really do come true.",
+      "rewards": ["future-plans"]
+    },
+    {
+      "id": "secret_wishes_ending",
+      "title": "Secret Dreams",
+      "message": "Though we keep our wishes secret, we both know they're filled with hopes for our future together. The magic of this night will stay with us always.",
+      "rewards": ["our-memories"]  
+    },
+    {
+      "id": "sunset_promise_ending",
+      "title": "Promise of Forever",
+      "message": "As we watch the sun set on our perfect first date, we make promises about all the sunrises and sunsets we'll share together. This is just the beginning.",
+      "rewards": ["future-plans"]
+    },
+    {
+      "id": "beautiful_day_ending", 
+      "title": "The Most Beautiful Day",
+      "message": "As our perfect day comes to an end, we both know that this has been the most beautiful, magical, and meaningful day of our lives. Our love story has officially begun.",
+      "rewards": ["love-letter"]
+    }
+  ],
+  "rewards": [
+    {
+      "id": "love-letter",
+      "title": "Love Letter",
+      "description": "A heartfelt love letter capturing this perfect moment",
+      "file": "rewards/love-letter.txt",
+      "filename": "love-letter.txt",
+      "isDefault": true
+    },
+    {
+      "id": "our-memories",
+      "title": "Our Memories",
+      "description": "A collection of our beautiful memories together",
+      "file": "rewards/our-memories.txt", 
+      "filename": "our-memories.txt",
+      "isDefault": true
+    },
+    {
+      "id": "future-plans",
+      "title": "Future Plans",
+      "description": "Dreams and plans for our future together",
+      "file": "rewards/future-plans.txt",
+      "filename": "future-plans.txt", 
+      "isDefault": true
+    }
+  ]
+}

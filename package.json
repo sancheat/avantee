@@ -1,0 +1,22 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "drizzle-kit": "^0.31.1",
+    "drizzle-orm": "^0.44.2",
+    "mongodb": "^6.17.0",
+    "pg": "^8.16.0",
+    "ws": "^8.18.2"
+  }
+}

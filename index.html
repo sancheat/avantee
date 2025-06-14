@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avantee's Romantic Adventure</title>
+    <meta name="description" content="A personalized interactive love story adventure for Avantee">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Homepage Section -->
+        <section id="homepage" class="page active" role="main">
+            <header class="hero-section">
+                <h1 class="main-title">For My Dearest Avantee</h1>
+                <p class="subtitle">A Journey Through Our Love Story</p>
+                <div class="heart-decoration" aria-hidden="true">💕</div>
+            </header>
+            
+            <main class="welcome-content">
+                <div class="welcome-message">
+                    <p class="intro-text">
+                        My darling Avantee, this is a special adventure created just for you. 
+                        Step into our beautiful memories and relive the moments that made us fall in love.
+                    </p>
+                    <p class="love-note">
+                        From our very first date to the moment you first said "I love you" - 
+                        every choice in this story celebrates our unique journey together.
+                    </p>
+                </div>
+                
+                <div class="start-section">
+                    <button 
+                        id="start-adventure" 
+                        class="primary-button"
+                        aria-describedby="adventure-description"
+                    >
+                        Begin Our Love Story
+                    </button>
+                    <p id="adventure-description" class="button-description">
+                        Relive our precious memories through an interactive adventure
+                    </p>
+                </div>
+            </main>
+            
+            <footer class="homepage-footer">
+                <p class="dedication">Made with endless love for you ❤️</p>
+            </footer>
+        </section>
+
+        <!-- Story Section -->
+        <section id="story-page" class="page" role="main">
+            <header class="story-header">
+                <h2 id="scene-title" class="scene-title">Loading your story...</h2>
+                <div class="progress-indicator">
+                    <span id="scene-counter" class="scene-counter" aria-live="polite">Scene 1</span>
+                </div>
+            </header>
+            
+            <main class="story-content">
+                <div id="story-text" class="story-text" role="region" aria-live="polite">
+                    <p>Preparing your romantic adventure...</p>
+                </div>
+                
+                <div id="choices-container" class="choices-container" role="group" aria-labelledby="choices-label">
+                    <h3 id="choices-label" class="sr-only">Choose your next action</h3>
+                    <!-- Choices will be dynamically populated here -->
+                </div>
+                
+                <div id="loading-indicator" class="loading-indicator" aria-hidden="true">
+                    <div class="heart-spinner">💖</div>
+                    <p>Loading your next moment...</p>
+                </div>
+            </main>
+            
+            <footer class="story-footer">
+                <button id="restart-story" class="secondary-button">
+                    Start Over
+                </button>
+            </footer>
+        </section>
+
+        <!-- End Page Section -->
+        <section id="end-page" class="page" role="main">
+            <header class="end-header">
+                <h2 id="ending-title" class="ending-title">Our Beautiful Journey</h2>
+            </header>
+            
+            <main class="end-content">
+                <div id="ending-message" class="ending-message" role="region" aria-live="polite">
+                    <!-- Ending content will be populated dynamically -->
+                </div>
+                
+                <div class="rewards-section">
+                    <h3 class="rewards-title">Your Love Rewards</h3>
+                    <p class="rewards-description">
+                        Download these special gifts created just for you:
+                    </p>
+                    
+                    <div id="rewards-container" class="rewards-container">
+                        <!-- Reward buttons will be populated dynamically -->
+                    </div>
+                </div>
+                
+                <div class="end-actions">
+                    <button id="play-again" class="primary-button">
+                        Experience Another Path
+                    </button>
+                    <button id="back-home" class="secondary-button">
+                        Back to Beginning
+                    </button>
+                </div>
+            </main>
+        </section>
+
+        <!-- Error Section -->
+        <section id="error-page" class="page error-section" role="alert">
+            <div class="error-content">
+                <h2 class="error-title">Oops! Something went wrong</h2>
+                <p id="error-message" class="error-text">
+                    We encountered an issue loading your love story. Please try again.
+                </p>
+                <button id="retry-button" class="primary-button">
+                    Try Again
+                </button>
+                <button id="home-button" class="secondary-button">
+                    Go Home
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Screen Reader Announcements -->
+    <div id="announcements" class="sr-only" aria-live="assertive" aria-atomic="true"></div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
