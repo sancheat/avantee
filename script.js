@@ -675,38 +675,27 @@ class RomanticAdventure {
      * @param {Object} reward - The reward object to download
      */
     downloadReward(reward) {
-        console.log(`Downloading reward: ${reward.title}`);
+    console.log(`Downloading reward: ${reward.title}`);
 
-        try {
-            // Create download link
-            const link = document.createElement('a');
-            link.href = reward.file;
-            link.download = reward.filename || reward.title;
-            link.style.display = 'none';
+    try {
+        // Create a hidden download link
+        const link = document.createElement('a');
+        link.href = `./${reward.file}`;  // Ensure relative to root (important for GitHub Pages)
+        link.setAttribute('download', reward.filename || reward.title);
+        link.style.display = 'none';
+        link.target = '_blank';
 
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
 
-            this.announceToScreenReader(`Downloading ${reward.title}`);
-
-            // Show feedback
-            event.target.textContent = `✅ ${reward.title}`;
-            setTimeout(() => {
-                event.target.textContent = `📥 ${reward.title}`;
-            }, 2000);
-
-        } catch (error) {
-            console.error('Error downloading reward:', error);
-            this.announceToScreenReader(`Error downloading ${reward.title}`);
-
-            // Show error feedback
-            event.target.textContent = `❌ Download Failed`;
-            setTimeout(() => {
-                event.target.textContent = `📥 ${reward.title}`;
-            }, 2000);
-        }
+        this.announceToScreenReader(`Downloading ${reward.title}`);
+    } catch (error) {
+        console.error('Error downloading reward:', error);
+        this.announceToScreenReader(`Error downloading ${reward.title}`);
     }
+}
+
 
     /**
      * Update the progress indicator
